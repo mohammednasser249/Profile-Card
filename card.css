@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Roboto&family=Work+Sans:ital,wght@0,600;1,500&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+/*  Personal-card styling     */
+
+
+body{
+
+    background-color: #28223F;
+    color: #B3BBCD;
+}
+
+
+section{
+    width: 32rem;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+}
+
+.personal-info{
+    background-color: #231E39;
+}
+
+.personal-info img{
+
+        width: 12rem;
+        display: block;
+        position: relative;
+        margin: 0px auto;
+        height: 12rem;
+        border-radius: 50%;
+        border: 0.2rem solid #03BFCB;
+        margin-bottom: 1.5rem;
+
+}
+
+.pro{
+        background-color: #FEBB0B;
+        color: #231E39;
+        font-size: 1.4rem;
+        position: relative;
+        left: 18px;
+        top: 10px;
+        padding: 0.1rem 0.7rem;
+        border: 1px solid #FEBB0B;
+        border-radius: 0.2rem;
+
+}
+
+.personal-info .name{
+    text-align: center;
+}
+
+.personal-info .country{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.3rem ;
+    
+}
+
+.personal-info .frontend{
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+.buttons{
+  text-align: center;
+  padding-bottom: 2.5rem;
+}
+
+.buttons button  {
+    border: 1px solid #03BFCB;
+    padding: 0.8rem 1.8rem;
+    border-radius: 0.3rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+
+
+.buttons .btn-1{
+background-color: #03BFCB;
+color: #231E39;
+margin-right: 0.5rem;
+}
+
+.buttons .btn-2{
+    background-color: transparent;
+    color: #02899c;
+    margin-left: 0.5rem;
+}
+
+.icons{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.icons .fa-brands{
+    font-size: 2rem;
+    margin: 0.2rem 0.8rem;
+    
+}
+
+.icons .fa-brands.fa-instagram:hover{
+    color: #AA38C7;
+    cursor: pointer;
+}
+
+.icons .fa-brands.fa-youtube:hover{
+  color: red;
+  cursor: pointer;
+}
+.icons .fa-brands.fa-linkedin:hover{
+    color: #0A66c2;
+    cursor: pointer;
+  }
+  
+.icons .fa-brands.fa-twitter:hover{
+  color: #60B8FF;
+  cursor: pointer;
+}
+
+.icons .fa-brands.fa-github:hover{
+  color:black;
+  cursor: pointer;
+}
+
+
+
+/*  Skills card */
+
+.skills{
+    background-color: #1f1A36;
+    padding: 1.6rem 1rem;
+}
+
+.skills h2{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.skills ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    border: 0.2rem solid #272240;
+    border-radius: 0.2rem;
+    padding: 0.4rem;
+    margin:0.2rem 0.1rem ;
+}
